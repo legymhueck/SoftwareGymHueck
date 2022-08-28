@@ -1,9 +1,16 @@
 # Software für die Computer am Gymnasium Hückelhoven
 
-## GitHub Repo für die neuste Version
+## GitHub Repo
 
 - `git clone https://github.com/legymhueck/SoftwareGymHueck`
 - Als Link: [https://github.com/legymhueck/SoftwareGymHueck](https://github.com/legymhueck/SoftwareGymHueck)
+
+## Winget
+
+- Alle Programme, bei denen **Winget Installation** steht, lassen sich mit dem im GitHub Repo verfügbaren json-File installatieren. Die Installation erfolgt über `winget import gymhueck_winget_install.json`.
+- Ein Update aller Programme ist möglich mit `winget upgrade --all`.
+- Die installierte Software lässt sich exportieren mit `winget export -o gymhueck_winget_install.json`.
+- [Microsoft-Artikel](https://docs.microsoft.com/de-de/windows/package-manager/winget/)
 
 ---
 
@@ -50,6 +57,7 @@
 
 - NetMan Startmenü: **Info**
 - [Link](https://sqlitebrowser.org/dl/)
+- Winget: `winget install DBBrowserForSQLite.DBBrowserForSQLite`
 
 ---
 
@@ -166,7 +174,7 @@
 
 - NetMan Startmenü: **Info**
 - [Link](https://www.jetbrains.com/idea/download/#section=windows)
-- Winget Installation: `winget install GreenfootTeam.Greenfoot`
+- Winget Installation: `winget install JetBrains.IntelliJIDEA.Community`
 - Zusatzinfo: "idea.properties" im bin-Verzeichnis und "U:\Eigene Dateien" Ordner sind WICHTIG!!
 
 ---

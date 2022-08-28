@@ -1,6 +1,6 @@
 # Software für die Computer am Gymnasium Hückelhoven
 
-## GitHub Repo
+## GitHub Repo für die neuste Version
 
 - `git clone https://github.com/legymhueck/SoftwareGymHueck`
 - Als Link: [https://github.com/legymhueck/SoftwareGymHueck](https://github.com/legymhueck/SoftwareGymHueck)
@@ -58,7 +58,7 @@
 - NetMan Startmenü: **Zubehör**
 - [Link](https://sourceforge.net/p/doublecmd/wiki/Download/)
 - Winget Installation: `winget install alexx2000.DoubleCommander`
-- Zusatzinfo: `xml`-Datei ins Programmverzeichnis kopieren
+- Zusatzinfo: `xml`-Datei aus GitHub Repo ins Programmverzeichnis kopieren
 
 ---
 
@@ -252,7 +252,7 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Link](https://extensions.libreoffice.org/en/extensions/show/languagetool)
-- Zusatzinfo: Installation in Writer mit *Extras -> Extension Manager -> Hinzufügen*
+- Zusatzinfo: Installation in LibreOffice Writer mit *Extras -> Extension Manager -> Hinzufügen*
 
 ---
 
@@ -291,7 +291,7 @@
 - NetMan Startmenü: **Info**
 - [Link](https://microblocks.fun/download)
 - Zusatzinfo: .sb3-Dateien dürfen nicht bei Doppelklick mit dieser App verknüpft werden, sondern mit Scratch
-- Die App startet mit chinesischer Lokalisierung.
+- Die App startet mit chinesischer Lokalisierung. Bitte ändern und testen.
 
 ---
 
@@ -524,7 +524,7 @@
 
 - NetMan Startmenü: **Musik**
 - [Link](https://www.tracktion.com/products/waveform-free)
-- Zusatzinfos: Download nur möglich über Registrierung (diese ist vorhanden).
+- Zusatzinfos: Download nur möglich über Registrierung.
 
 ---
 

@@ -242,6 +242,20 @@
 
 ---
 
+## MicroBlocks
+
+- NetMan Kategorie: **Info**
+- [Link](https://microblocks.fun/download)
+
+---
+
+## MIND+ Desktop
+
+- NetMan Kategorie: **Info**
+- [Link](https://mindplus.cc/download-en.html)
+
+---
+
 ## MuseScore
 
 - NetMan Kategorie: **Medien**
@@ -350,9 +364,17 @@
 - NetMan Kategorie: **Info**
 - [Link](https://github.com/kekru/struktogrammeditor) (siehe unten auf GitHub-Seite: "Download via Jitpack")
 - Zusatzinfos:
-  - Bei vorhandener Java-Installation wird die jar-Datei so gestartet: `java -jar struktogrammeditor-1.7.2-SNAPSHOT-jar-with-dependencies.jar`
+  - Nach Download der letzten Version die heruntergeladene Datei umbenennen in `struktogrammeditor.jar`.
+  - Bei vorhandener Java-Installation wird die jar-Datei so gestartet: `java -jar struktogrammeditor.jar`
   - [Webseite](https://whiledo.de/index.php?p=struktogrammeditor)
-  - Die jar-Datei lässt sich selbst in Powershell bauen mit: `.\mvnw.cmd clean package`
+
+---
+
+## Struktogrammer
+
+- NetMan Kategorie: **Info**
+- [Link](https://sourceforge.net/projects/struktogrammer/files/)
+- Zusatzinfo: Anleitung für Windows-Installation auf der Link-Seite weiter unten.
 
 ---
 
@@ -372,11 +394,19 @@
 
 ---
 
+## TigerJython4Kids
+
+- NetMan Kategorie: **Info**
+- [Link](https://www.tigerjython4kids.ch/index.php?inhalt_links=home/navigation.inc.php&inhalt_mitte=home/einrichten.inc.php)
+
+---
+
 ## VeraCrypt
 
 - NetMan Kategorie: **Zubehör**
 - [Link](https://www.veracrypt.fr/en/Downloads.html)
 - Winget Installation: `winget install IDRIX.VeraCrypt`
+- Zusatzinfos: Berechtigungen in NetMan anlassen. App startet bei Schüleraccounts, aber der Laufwerksbuchstabe des gemounteten Volumes kann nicht angeklickt werden.
 
 ---
 

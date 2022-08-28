@@ -5,10 +5,12 @@
 - `git clone https://github.com/legymhueck/SoftwareGymHueck`
 - Als Link: [https://github.com/legymhueck/SoftwareGymHueck](https://github.com/legymhueck/SoftwareGymHueck)
 
+---
+
 ## 7Zip
 
 - Netman-Kategorie: **Zubehör**
-- [Link](https://7-zip.org/a/7z1900-x64.msi)
+- [Link](https://www.7-zip.org)
 - Winget Installation: `winget install 7zip.7zip`
 
 ---
@@ -16,7 +18,7 @@
 ## Adobe Acrobat Standard DC (Reader)
 
 - NetMan-Kategorie: **Office**
-- [Link](https://www.adobe.com/de/products/catalog.html)
+- [Link](https://www.adobe.com/de/acrobat/pdf-reader.html)
 - Winget Installation: `winget install Adobe.Acrobat.Reader.64-bit`
 
 ---
@@ -38,7 +40,7 @@
 
 ## BlueJ
 
-- Netman-Kategorie: **Informatik**
+- Netman-Kategorie: **Info**
 - [Link](https://www.bluej.org/)
 - Winget Installation: `winget install BlueJTeam.BlueJ`
 
@@ -47,16 +49,16 @@
 ## Double Commander
 
 - NetMan-Kategorie: **Zubehör**
-- [Link](https://doublecmd.sourceforge.io/)
+- [Link](https://sourceforge.net/p/doublecmd/wiki/Download/)
 - Winget Installation: `winget install alexx2000.DoubleCommander`
-- Zusatzinfo: -> xml-Datei ins Programmverzeichnis kopieren
+- Zusatzinfo: `xml`-Datei ins Programmverzeichnis kopieren
 
 ---
 
 ## Filius
 
-- NetMan-Kategorie: **Informatik**
-- [Link](https://lernsoftware-filius.de/)
+- NetMan-Kategorie: **Info**
+- [Link](https://lernsoftware-filius.de/Herunterladen)
 
 ---
 
@@ -79,16 +81,17 @@
 ## Freeplane
 
 - NetMan-Kategorie: **Office**
-- [Link](https://www.freeplane.org/wiki/index.php/Home)
+- [Link](https://docs.freeplane.org/#/getting-started/getting-started)
 - Winget Installation: `winget install Freeplane.Freeplane`
 
 ---
 
-## GeoGebra 6
+## GeoGebra Classic 6
 
-- NetMan-Kategorie: **Mathematik**
+- NetMan-Kategorie: **Mathe**
 - [Link](https://www.geogebra.org/download)
 - Winget Installation: `winget install GeoGebra.Classic`
+- Zusatzinfo: *GeoGebra Classic 6* herunterladen
 
 ---
 
@@ -120,13 +123,14 @@
 
 - NetMan-Kategorie: **Sowi**
 - [Link](https://www.grafstat.de/bezugsquellen.htm)
+- Zusatzinfo: Ein Download-Link wird per Mail zugeschickt.
 
 ---
 
 ## Greenfoot
 
-- NetMan-Kategorie: **Informatik**
-- [Link](https://www.greenfoot.org/door)
+- NetMan-Kategorie: **Info**
+- [Link](https://www.greenfoot.org/download)
 - Winget Installation: `winget install GreenfootTeam.Greenfoot`
 
 ---
@@ -145,7 +149,7 @@
 
 ## IntelliJ Community Edition
 
-- NetMan-Kategorie: **Informatik**
+- NetMan-Kategorie: **Info**
 - [Link](https://www.jetbrains.com/idea/download/#section=windows)
 - Winget Installation: `winget install GreenfootTeam.Greenfoot`
 - Zusatzinfo: "idea.properties" im bin-Verzeichnis und "U:\Eigene Dateien" Ordner sind WICHTIG!!
@@ -166,7 +170,9 @@
 - NetMan-Kategorie: **keine**
 - [Link](https://bell-sw.com/pages/downloads/#/java-8-lts)
 - Winget Installation: `winget install BellSoft.LibericaJDK.8.Full`
-- Zusatzinfo: Nur die 64 Bit Version installieren.
+- Zusatzinfos:
+  - Bei *Package* die **Full JDK** wählen.
+  - Nur die 64 Bit Version installieren.
 
 ---
 
@@ -175,7 +181,9 @@
 - NetMan-Kategorie: **keine**
 - [Link](https://bell-sw.com/pages/downloads/#/java-17-lts)
 - Winget Installation: `winget install BellSoft.LibericaJDK.17.Full`
-- Zusatzinfo: Nur die 64 Bit Version installieren.
+- Zusatzinfos:
+  - Bei *Package* die **Full JDK** wählen.
+  - Nur die 64 Bit Version installieren.
 
 ---
 
@@ -206,7 +214,7 @@
 ## LibreOffice
 
 - NetMan Kategorie: **Office**
-- [Link](https://de.libreoffice.org/)
+- [Link](https://de.libreoffice.org/download/download/)
 - Winget Installation: `winget install TheDocumentFoundation.LibreOffice`
 
 ---
@@ -214,7 +222,7 @@
 ## LibreOffice Hilfe Deutsch
 
 - NetMan-Kategorie: **keine**
-- [Link](https://de.libreoffice.org/)
+- [Link](https://de.libreoffice.org/download/download/)
 
 ---
 
@@ -276,7 +284,7 @@
 ## Prowise Presenter Windows Desktop App
 
 - NetMan Kategorie: **Office**
-- [Link](https://www.prowise.com/en/prowise-presenter/)
+- [Link](https://presenter10.prowise.com/downloads)
 
 ---
 
@@ -297,7 +305,7 @@
 
 ## SceneBuilder
 
-- NetMan Kategorie: **Informatik**
+- NetMan Kategorie: **Info**
 - [Link](https://gluonhq.com/products/scene-builder/#download)
 - Scoop Installation: `scoop install scene-builder`
 
@@ -305,7 +313,7 @@
 
 ## Scratch offline
 
-- NetMan Kategorie: **Informatik**
+- NetMan Kategorie: **Info**
 - [Link](https://scratch.mit.edu/download)
 - Winget Installation: `winget install MITMediaLab.Scratch.3`
 
@@ -314,7 +322,7 @@
 ## Shotcut
 
 - NetMan Kategorie: **Medien**
-- [Link](https://www.shotcut.org/)
+- [Link](https://www.shotcut.org/download/)
 - Winget Installation: `winget install Meltytech.Shotcut`
 
 ---
@@ -322,7 +330,10 @@
 ## Sketchometry
 
 - NetMan Kategorie: **Medien**
-- [Link](https://sketchometry.org/en/index.html)
+- [Link](https://sketchometry.org/en/download/index.html)
+- Zusatzinfos: Zwei mögliche Installationen:
+  - Nur die URL verlinken: [https://start.sketchometry.org](https://start.sketchometry.org)
+  - Die USB-Stick Version nehmen (unten auf der Webseite).
 
 ---
 
@@ -336,8 +347,12 @@
 
 ## Struktogrammeditor
 
-- NetMan Kategorie: **Informatik**
-- [Link](https://whiledo.de/index.php?p=struktogrammeditor)
+- NetMan Kategorie: **Info**
+- [Link](https://github.com/kekru/struktogrammeditor) (siehe unten auf GitHub-Seite: "Download via Jitpack")
+- Zusatzinfos:
+  - Bei vorhandener Java-Installation wird die jar-Datei so gestartet: `java -jar struktogrammeditor-1.7.2-SNAPSHOT-jar-with-dependencies.jar`
+  - [Webseite](https://whiledo.de/index.php?p=struktogrammeditor)
+  - Die jar-Datei lässt sich selbst in Powershell bauen mit: `.\mvnw.cmd clean package`
 
 ---
 
@@ -346,13 +361,6 @@
 - NetMan Kategorie: **Office**
 - [Link](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 - Winget Installation: `winget install SumatraPDF.SumatraPDF`
-
----
-
-## Tenacity
-
-- NetMan Kategorie: **Medien**
-- [Link](https://github.com/tenacityteam/tenacity)
 
 ---
 
@@ -367,7 +375,7 @@
 ## VeraCrypt
 
 - NetMan Kategorie: **Zubehör**
-- [Link](https://www.veracrypt.fr/en/Home.html)
+- [Link](https://www.veracrypt.fr/en/Downloads.html)
 - Winget Installation: `winget install IDRIX.VeraCrypt`
 
 ---
@@ -375,14 +383,15 @@
 ## VianaNET
 
 - NetMan Kategorie: **Physik**
-- [Link](http://www.viananet.de/downloads)
+- [Link](https://github.com/avosskuehler/viana/releases)
+- [Webseite](http://www.viananet.de/downloads)
 - Winget Installation: `winget install avosskuehler.viana`
 
 ---
 
 ## Visual Studio Code
 
-- NetMan Kategorie: **Informatik**
+- NetMan Kategorie: **Info**
 - [Link](https://code.visualstudio.com/docs/?dv=win)
 - Winget Installation: `winget install Microsoft.VisualStudioCode`
 
@@ -400,6 +409,7 @@
 
 - NetMan Kategorie: **Musik**
 - [Link](https://www.tracktion.com/products/waveform-free)
+- Zusatzinfos: Download nur möglich über Registrierung (diese ist vorhanden).
 
 ---
 
@@ -421,7 +431,7 @@
 
 ## yEd
 
-- NetMan Kategorie: **Informatik**
+- NetMan Kategorie: **Info**
 - [Link](https://www.yworks.com/products/yed/download#download)
 - Choco Installation: `choco install yed`
 - Scoop Installation: `scoop install yed`

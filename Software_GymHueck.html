@@ -1249,10 +1249,17 @@ pre[class*="language-"] {
 </head>
 <body>
   <article class="markdown-body"><h1 class="atx" id="software-fur-die-computer-am-gymnasium-huckelhoven">Software für die Computer am Gymnasium Hückelhoven</h1>
-<h2 class="atx" id="github-repo-fur-die-neuste-version">GitHub Repo für die neuste Version</h2>
+<h2 class="atx" id="github-repo">GitHub Repo</h2>
 <ul>
 <li><code>git clone https://github.com/legymhueck/SoftwareGymHueck</code></li>
 <li>Als Link: <a href="https://github.com/legymhueck/SoftwareGymHueck">https://github.com/legymhueck/SoftwareGymHueck</a></li>
+</ul>
+<h2 class="atx" id="winget">Winget</h2>
+<ul>
+<li>Alle Programme, bei denen <strong>Winget Installation</strong> steht, lassen sich mit dem im GitHub Repo verfügbaren json-File installatieren. Die Installation erfolgt über <code>winget import gymhueck_winget_install.json</code>.</li>
+<li>Ein Update aller Programme ist möglich mit <code>winget upgrade --all</code>.</li>
+<li>Die installierte Software lässt sich exportieren mit <code>winget export -o gymhueck_winget_install.json</code>.</li>
+<li><a href="https://docs.microsoft.com/de-de/windows/package-manager/winget/">Microsoft-Artikel</a></li>
 </ul>
 <hr>
 <h2 class="atx" id="7zip">7Zip</h2>
@@ -1293,6 +1300,7 @@ pre[class*="language-"] {
 <ul>
 <li>NetMan Startmenü: <strong>Info</strong></li>
 <li><a href="https://sqlitebrowser.org/dl/">Link</a></li>
+<li>Winget: <code>winget install DBBrowserForSQLite.DBBrowserForSQLite</code></li>
 </ul>
 <hr>
 <h2 class="atx" id="double-commander">Double Commander</h2>
@@ -1397,7 +1405,7 @@ pre[class*="language-"] {
 <ul>
 <li>NetMan Startmenü: <strong>Info</strong></li>
 <li><a href="https://www.jetbrains.com/idea/download/#section=windows">Link</a></li>
-<li>Winget Installation: <code>winget install GreenfootTeam.Greenfoot</code></li>
+<li>Winget Installation: <code>winget install JetBrains.IntelliJIDEA.Community</code></li>
 <li>Zusatzinfo: "idea.properties" im bin-Verzeichnis und "U:\Eigene Dateien" Ordner sind WICHTIG!!</li>
 </ul>
 <hr>

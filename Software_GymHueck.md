@@ -408,6 +408,7 @@
 - NetMan Startmenü: **Info**
 - [Link](https://gluonhq.com/products/scene-builder/#download)
 - Scoop Installation: `scoop install scene-builder`
+- Winget installation (17): `winget install -e --id Gluon.SceneBuilder`
 
 ---
 
@@ -483,7 +484,7 @@
 
 - NetMan Startmenü: **Mathe**
 - [Link](https://education.ti.com/de/software/details/en/36be84f974e940c78502aa47492887ab/ti-nspirecxcas_pc_full)
-- Winget Installation: `TexasInstruments.TI-Nspire.CXStudent`
+- Winget Installation: `winget install TexasInstruments.TI-Nspire.CXStudent`
 
 ---
 

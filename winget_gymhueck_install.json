@@ -109,6 +109,9 @@
 					"PackageIdentifier" : "AngusJohnson.PDFTKBuilder"
 				},
 				{
+					"PackageIdentifier" : "JetBrains.PyCharm.Community"
+				},
+				{
 					"PackageIdentifier" : "Python.Python.3.10"
 				},
 				{

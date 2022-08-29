@@ -5,6 +5,8 @@
 - `git clone https://github.com/legymhueck/SoftwareGymHueck`
 - Als Link: [https://github.com/legymhueck/SoftwareGymHueck](https://github.com/legymhueck/SoftwareGymHueck)
 
+---
+
 ## Winget
 
 - Alle Programme, bei denen **Winget Installation** steht, lassen sich mit dem im GitHub Repo verfügbaren json-File installatieren. Die Installation erfolgt über `winget import` gefolgt vom Namen der .json-Datei.
@@ -393,6 +395,14 @@
 
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://www.prowise.com/en/download-prowise-reflect/)
+
+---
+
+## PyCharm
+
+- NetMan Startmenü: **Info**
+- [Download-Link](https://www.jetbrains.com/de-de/pycharm/download/#section=windows)
+- Winget Installation: `JetBrains.PyCharm.Community`
 
 ---
 

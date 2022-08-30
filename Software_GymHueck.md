@@ -573,5 +573,4 @@
 - Scoop Installation: `scoop install yed`
 - Zusatzinfos: NRW Symbole einfügen
   - [Download-Link](https://www.schulentwicklung.nrw.de/lehrplaene/upload/klp_SII/if/MaterialZABI/yED-NRW-Palette.zip)
-  - Nach Installation der Palette über Bearbeiten -> Palette verwalten -> Abschnitt importieren wird ein Verzeichnis
-  - "yWorks\yED" unter "AppData\Roaming" angelegt. Dies muss ins Image kopiert werden.
+  - Nach Installation der Palette über Bearbeiten -> Palette verwalten -> Abschnitt importieren wird ein Verzeichnis namens "yWorks\yED" unter "AppData\Roaming" angelegt. Dies muss ins Image kopiert werden.

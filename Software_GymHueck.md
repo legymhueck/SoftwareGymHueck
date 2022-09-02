@@ -49,7 +49,7 @@
 
 ## BlueJ
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.bluej.org/)
 - Winget Installation: `winget install BlueJTeam.BlueJ`
 
@@ -57,7 +57,7 @@
 
 ## DB Browser for SQLite
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://sqlitebrowser.org/dl/)
 - Winget: `winget install DBBrowserForSQLite.DBBrowserForSQLite`
 
@@ -68,7 +68,7 @@
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://sourceforge.net/p/doublecmd/wiki/Download/)
 - Winget Installation: `winget install alexx2000.DoubleCommander`
-- Zusatzinfo: `xml`-Datei aus GitHub Repo ins Programmverzeichnis kopieren
+- Zusatzinformation: `xml`-Datei aus GitHub Repo ins Programmverzeichnis kopieren
 
 ---
 
@@ -82,7 +82,7 @@
 
 ## Filius
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://lernsoftware-filius.de/Herunterladen)
 
 ---
@@ -116,7 +116,7 @@
 - NetMan Startmenü: **Mathe**
 - [Download-Link](https://www.geogebra.org/download)
 - Winget Installation: `winget install GeoGebra.Classic`
-- Zusatzinfo: *GeoGebra Classic 6* herunterladen
+- Zusatzinformation: *GeoGebra Classic 6* herunterladen
 
 ---
 
@@ -148,13 +148,13 @@
 
 - NetMan Startmenü: **Sowi**
 - [Download-Link](https://www.grafstat.de/bezugsquellen.htm)
-- Zusatzinfo: Ein Download-Link wird per Mail zugeschickt.
+- Zusatzinformation: Ein Download-Link wird per Mail zugeschickt.
 
 ---
 
 ## Greenfoot
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.greenfoot.org/download)
 - Winget Installation: `winget install GreenfootTeam.Greenfoot`
 
@@ -174,10 +174,10 @@
 
 ## IntelliJ Community Edition
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.jetbrains.com/idea/download/#section=windows)
 - Winget Installation: `winget install JetBrains.IntelliJIDEA.Community`
-- Zusatzinfo: "idea.properties" im bin-Verzeichnis und "U:\Eigene Dateien" Ordner sind WICHTIG!!
+- Zusatzinformation: "idea.properties" im bin-Verzeichnis und "U:\Eigene Dateien" Ordner sind WICHTIG!!
 
 ---
 
@@ -192,7 +192,7 @@
 
 ## Java-Editor
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://javaeditor.org/doku.php?id=en:download)
 
 ---
@@ -202,7 +202,7 @@
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://bell-sw.com/pages/downloads/#/java-8-lts)
 - Winget Installation: `winget install BellSoft.LibericaJDK.8.Full`
-- Zusatzinfos:
+- Zusatzinformations:
   - Bei *Package* die **Full JDK** wählen.
   - Nur die 64 Bit Version installieren.
 
@@ -213,7 +213,7 @@
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://bell-sw.com/pages/downloads/#/java-17-lts)
 - Winget Installation: `winget install BellSoft.LibericaJDK.17.Full`
-- Zusatzinfos:
+- Zusatzinformations:
   - Bei *Package* die **Full JDK** wählen.
   - Nur die 64 Bit Version installieren.
 
@@ -262,27 +262,27 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://extensions.libreoffice.org/en/extensions/show/languagetool)
-- Zusatzinfo: Installation in LibreOffice Writer mit *Extras -> Extension Manager -> Hinzufügen*
+- Zusatzinformation: Installation in LibreOffice Writer mit *Extras -> Extension Manager -> Hinzufügen*
 
 ---
 
 ## LogikSim
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://logiksim.dbclan.de/download.html)
 
 ---
 
 ## Logisim
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/)
 
 ---
 
 ## Logisim-Evolution
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://github.com/logisim-evolution/logisim-evolution/releases/tag/v3.7.2)
 - Winget-Installation: `winget install logisim-evolution.logisim-evolution`
 
@@ -298,17 +298,18 @@
 
 ## MicroBlocks
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://microblocks.fun/download)
-- Zusatzinfo: .sb3-Dateien dürfen nicht bei Doppelklick mit dieser App verknüpft werden, sondern mit Scratch
+- Zusatzinformation: .sb3-Dateien dürfen nicht bei Doppelklick mit dieser App verknüpft werden, sondern mit Scratch
 - Die App startet mit chinesischer Lokalisierung. Bitte ändern und testen.
 
 ---
 
 ## MIND+ Desktop
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://mindplus.cc/download-en.html)
+- Winget Installation: `winget install DFRobot.Mind+`
 
 ---
 
@@ -354,7 +355,7 @@
 
 ## OpenStego
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://github.com/syvaidya/openstego/releases)
 - Winget Installation: `winget install syvaidya.openstego`
 
@@ -395,14 +396,15 @@
 
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://www.prowise.com/en/download-prowise-reflect/)
+- Winget Installation `winget install ProwiseB.V.ProwiseReflect`
 
 ---
 
 ## PyCharm
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.jetbrains.com/de-de/pycharm/download/#section=windows)
-- Winget Installation: `JetBrains.PyCharm.Community`
+- Winget Installation: `winget install JetBrains.PyCharm.Community`
 
 ---
 
@@ -416,16 +418,15 @@
 
 ## SceneBuilder
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://gluonhq.com/products/scene-builder/#download)
-- Scoop Installation: `scoop install scene-builder`
-- Winget installation (17): `winget install -e --id Gluon.SceneBuilder`
+- Winget installation: `winget install Gluon.SceneBuilder.18`
 
 ---
 
 ## Scratch offline
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://scratch.mit.edu/download)
 - Winget Installation: `winget install MITMediaLab.Scratch.3`
 
@@ -443,7 +444,7 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://sketchometry.org/en/download/index.html)
-- Zusatzinfos: Zwei mögliche Installationen:
+- Zusatzinformations: Zwei mögliche Installationen:
   - Nur die URL verlinken: [https://start.sketchometry.org](https://start.sketchometry.org)
   - Die USB-Stick Version nehmen (unten auf der Webseite).
 
@@ -453,13 +454,13 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://www.smarttech.com/en/products/education-software/smart-learning-suite/download)
-- Zusatzinfo: Nur installieren auf Boards und Lehrer-PCs
+- Zusatzinformation: Nur installieren auf Boards und Lehrer-PCs
 
 ---
 
 ## SQLiteStudio
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://github.com/pawelsalawa/sqlitestudio/releases)
 - [Webseite](https://sqlitestudio.pl)
 
@@ -467,9 +468,9 @@
 
 ## Struktogrammeditor
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://github.com/kekru/struktogrammeditor) (siehe unten auf GitHub-Seite: "Download via Jitpack")
-- Zusatzinfos:
+- Zusatzinformations:
   - Nach Download der letzten Version die heruntergeladene Datei umbenennen in `struktogrammeditor.jar`.
   - Bei vorhandener Java-Installation wird die jar-Datei so gestartet: `java -jar struktogrammeditor.jar`
   - [Webseite](https://whiledo.de/index.php?p=struktogrammeditor)
@@ -478,9 +479,9 @@
 
 ## Struktogrammer
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://sourceforge.net/projects/struktogrammer/files/)
-- Zusatzinfo: Anleitung für Windows-Installation auf der Link-Seite weiter unten.
+- Zusatzinformation: Anleitung für Windows-Installation auf der Link-Seite weiter unten.
 
 ---
 
@@ -502,7 +503,7 @@
 
 ## TigerJython4Kids
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.tigerjython4kids.ch/index.php?inhalt_links=home/navigation.inc.php&inhalt_mitte=home/einrichten.inc.php)
 
 ---
@@ -512,7 +513,7 @@
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://www.veracrypt.fr/en/Downloads.html)
 - Winget Installation: `winget install IDRIX.VeraCrypt`
-- Zusatzinfos: Berechtigungen in NetMan anlassen. App startet bei Schüleraccounts, aber der Laufwerksbuchstabe des gemounteten Volumes kann nicht angeklickt werden.
+- Zusatzinformations: Berechtigungen in NetMan anlassen. App startet bei Schüleraccounts, aber der Laufwerksbuchstabe des gemounteten Volumes kann nicht angeklickt werden.
 
 ---
 
@@ -527,7 +528,7 @@
 
 ## Visual Studio Code
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://code.visualstudio.com/docs/?dv=win)
 - Winget Installation: `winget install Microsoft.VisualStudioCode`
 
@@ -545,7 +546,7 @@
 
 - NetMan Startmenü: **Musik**
 - [Download-Link](https://www.tracktion.com/products/waveform-free)
-- Zusatzinfos: Download nur möglich über Registrierung.
+- Zusatzinformations: Download nur möglich über Registrierung.
 
 ---
 
@@ -567,11 +568,11 @@
 
 ## yEd
 
-- NetMan Startmenü: **Info**
+- NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.yworks.com/products/yed/download#download)
 - Choco Installation: `choco install yed`
 - Scoop Installation: `scoop install yed`
-- Zusatzinfos: NRW Symbole einfügen
+- Zusatzinformations: NRW Symbole einfügen
   - [Download-Link](https://www.schulentwicklung.nrw.de/lehrplaene/upload/klp_SII/if/MaterialZABI/yED-NRW-Palette.zip)
   - Nach Installation der Palette über Bearbeiten -> Palette verwalten -> Abschnitt importieren wird ein Verzeichnis
   - "yWorks\yED" unter "AppData\Roaming" angelegt. Dies muss ins Image kopiert werden.

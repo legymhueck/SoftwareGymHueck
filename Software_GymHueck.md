@@ -3,16 +3,16 @@
 ## GitHub Repo
 
 - `git clone https://github.com/legymhueck/SoftwareGymHueck`
-- Als Link: [https://github.com/legymhueck/SoftwareGymHueck](https://github.com/legymhueck/SoftwareGymHueck)
+- Als Link: https://github.com/legymhueck/SoftwareGymHueck
 
 ---
 
 ## Winget
 
-- Alle Programme, bei denen **Winget Installation** steht, lassen sich mit dem im GitHub Repo verfügbaren json-File installatieren. Die Installation erfolgt über `winget import` gefolgt vom Namen der .json-Datei.
+- Alle Programme, bei denen "Winget Installation" steht, lassen sich mit der in diesem GitHub Repo verfügbaren .json-Datei installatieren. Die Installation erfolgt über `winget import`, gefolgt vom Namen der .json-Datei.
 - Ein Update aller Programme ist möglich mit `winget upgrade --all`.
-- Die installierte Software lässt sich exportieren mit `winget export -o` und der Name der .json-Datei.
-- [Microsoft-Artikel](https://docs.microsoft.com/de-de/windows/package-manager/winget/)
+- Eine Liste der aktuell installierten Software lässt sich exportieren mit `winget export -o`, gefolgt vom Namen der .json-Datei.
+- Nähere Infos finden sich in diesem [Microsoft-Artikel](https://docs.microsoft.com/de-de/windows/package-manager/winget/).
 
 ---
 
@@ -68,7 +68,7 @@
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://sourceforge.net/p/doublecmd/wiki/Download/)
 - Winget Installation: `winget install alexx2000.DoubleCommander`
-- Zusatzinformation: `xml`-Datei aus GitHub Repo ins Programmverzeichnis kopieren
+- Zusatzinfo: `xml`-Datei, die sich in diesem GitHub Repo findet, bitte ins Programmverzeichnis kopieren.
 
 ---
 
@@ -116,7 +116,6 @@
 - NetMan Startmenü: **Mathe**
 - [Download-Link](https://www.geogebra.org/download)
 - Winget Installation: `winget install GeoGebra.Classic`
-- Zusatzinformation: *GeoGebra Classic 6* herunterladen
 
 ---
 
@@ -177,7 +176,7 @@
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.jetbrains.com/idea/download/#section=windows)
 - Winget Installation: `winget install JetBrains.IntelliJIDEA.Community`
-- Zusatzinformation: "idea.properties" im bin-Verzeichnis und "U:\Eigene Dateien" Ordner sind WICHTIG!!
+- Zusatzinfo: Die "idea.properties" im bin-Verzeichnis muss so angepasst werden, dass alle Einträgen (`config`, `systems`, `plugins` und `log`) auskommentiert werden und überall das Verzeichnis auf "U:\Eigene Dateien" gesetzt wird!
 
 ---
 
@@ -262,7 +261,7 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://extensions.libreoffice.org/en/extensions/show/languagetool)
-- Zusatzinformation: Installation in LibreOffice Writer mit *Extras -> Extension Manager -> Hinzufügen*
+- Zusatzinfo: Installation der heruntergeladenen .oxt-Datei in LibreOffice Writer mit *Extras -> Extension Manager -> Hinzufügen*
 
 ---
 
@@ -300,8 +299,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://microblocks.fun/download)
-- Zusatzinformation: .sb3-Dateien dürfen nicht bei Doppelklick mit dieser App verknüpft werden, sondern mit Scratch
-- Die App startet mit chinesischer Lokalisierung. Bitte ändern und testen.
 
 ---
 
@@ -310,6 +307,9 @@
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://mindplus.cc/download-en.html)
 - Winget Installation: `winget install DFRobot.Mind+`
+- Zusatzinfos:
+  - .sb3-Dateien dürfen nicht bei Doppelklick mit dieser App verknüpft werden, sondern mit Scratch.
+  - Die App startet mit chinesischer Lokalisierung. Bitte ändern und testen.
 
 ---
 
@@ -481,7 +481,7 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://sourceforge.net/projects/struktogrammer/files/)
-- Zusatzinformation: Anleitung für Windows-Installation auf der Link-Seite weiter unten.
+- Zusatzinfo: Anleitung für die Windows-Installation auf der Link-Seite weiter unten.
 
 ---
 
@@ -513,7 +513,7 @@
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://www.veracrypt.fr/en/Downloads.html)
 - Winget Installation: `winget install IDRIX.VeraCrypt`
-- Zusatzinformations: Berechtigungen in NetMan anlassen. App startet bei Schüleraccounts, aber der Laufwerksbuchstabe des gemounteten Volumes kann nicht angeklickt werden.
+- Zusatzinfo: Die App startet zwar bei Schüleraccounts, aber der Laufwerksbuchstabe des gemounteten Volumes kann nicht angeklickt werden.
 
 ---
 
@@ -572,7 +572,6 @@
 - [Download-Link](https://www.yworks.com/products/yed/download#download)
 - Choco Installation: `choco install yed`
 - Scoop Installation: `scoop install yed`
-- Zusatzinformations: NRW Symbole einfügen
-  - [Download-Link](https://www.schulentwicklung.nrw.de/lehrplaene/upload/klp_SII/if/MaterialZABI/yED-NRW-Palette.zip)
-  - Nach Installation der Palette über Bearbeiten -> Palette verwalten -> Abschnitt importieren wird ein Verzeichnis
-  - "yWorks\yED" unter "AppData\Roaming" angelegt. Dies muss ins Image kopiert werden.
+- Zusatzinfos:
+  - Die NRW Symbole, die unter diesem [Download-Link](https://www.schulentwicklung.nrw.de/lehrplaene/upload/klp_SII/if/MaterialZABI/yED-NRW-Palette.zip) zu finden sind, müssen nach der Installation importiert werden. Dies erfolgt über: *Bearbeiten* -> *Palette verwalten* -> *Abschnitt importieren*.
+  - Danach wird in `AppData\Roaming` ein Verzeichnis namens `yWorks\yED` angelegt, welches ins Image kopiert werden muss.

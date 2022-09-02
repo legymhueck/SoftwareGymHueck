@@ -3,7 +3,7 @@
 ## GitHub Repo
 
 - `git clone https://github.com/legymhueck/SoftwareGymHueck`
-- Als Link: https://github.com/legymhueck/SoftwareGymHueck
+- Als Link: [SoftwareGymhueck](https://github.com/legymhueck/SoftwareGymHueck)
 
 ---
 

@@ -1,18 +1,9 @@
 # Software für die Computer am Gymnasium Hückelhoven
 
-## GitHub Repo
+## Aktuellste Version immer im GitHub Repo
 
 - `git clone https://github.com/legymhueck/SoftwareGymHueck`
 - Als Link: [SoftwareGymhueck](https://github.com/legymhueck/SoftwareGymHueck)
-
----
-
-## Winget
-
-- Alle Programme, bei denen "Winget Installation" steht, lassen sich mit der in diesem GitHub Repo verfügbaren .json-Datei installatieren. Die Installation erfolgt über `winget import`, gefolgt vom Namen der .json-Datei.
-- Ein Update aller Programme ist möglich mit `winget upgrade --all`.
-- Eine Liste der aktuell installierten Software lässt sich exportieren mit `winget export -o`, gefolgt vom Namen der .json-Datei.
-- Nähere Infos finden sich in diesem [Microsoft-Artikel](https://docs.microsoft.com/de-de/windows/package-manager/winget/).
 
 ---
 
@@ -20,7 +11,6 @@
 
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://www.7-zip.org)
-- Winget Installation: `winget install 7zip.7zip`
 
 ---
 
@@ -28,7 +18,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://www.adobe.com/de/acrobat/pdf-reader.html)
-- Winget Installation: `winget install Adobe.Acrobat.Reader.64-bit`
 
 ---
 
@@ -36,7 +25,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.audacityteam.org/download/)
-- Winget Installation: `winget install Audacity.Audacity`
 
 ---
 
@@ -51,7 +39,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.bluej.org/)
-- Winget Installation: `winget install BlueJTeam.BlueJ`
 
 ---
 
@@ -59,7 +46,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://sqlitebrowser.org/dl/)
-- Winget: `winget install DBBrowserForSQLite.DBBrowserForSQLite`
 
 ---
 
@@ -67,7 +53,6 @@
 
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://sourceforge.net/p/doublecmd/wiki/Download/)
-- Winget Installation: `winget install alexx2000.DoubleCommander`
 - Zusatzinfo: `xml`-Datei, die sich in diesem GitHub Repo findet, bitte ins Programmverzeichnis kopieren.
 
 ---
@@ -76,7 +61,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://github.com/jgraph/drawio-desktop/releases/)
-- Winget Installation: `winget install JGraph.Draw`
 
 ---
 
@@ -91,7 +75,6 @@
 
 - NetMan Startmenü: **Internet**
 - [Download-Link](https://www.mozilla.org/de/firefox/all/#product-desktop-release)
-- Winget Installation: `winget install Mozilla.Firefox`
 
 ---
 
@@ -99,7 +82,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://www.foxit.com/downloads/#Foxit-Reader/)
-- Winget Installation: `winget install Foxit.FoxitReader`
 
 ---
 
@@ -107,7 +89,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://docs.freeplane.org/#/getting-started/getting-started)
-- Winget Installation: `winget install Freeplane.Freeplane`
 
 ---
 
@@ -115,7 +96,6 @@
 
 - NetMan Startmenü: **Mathe**
 - [Download-Link](https://www.geogebra.org/download)
-- Winget Installation: `winget install GeoGebra.Classic`
 
 ---
 
@@ -123,7 +103,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.gimp.org/)
-- Winget Installation: `winget install GIMP.GIMP`
 
 ---
 
@@ -131,7 +110,6 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://git-scm.com/)
-- Winget Installation: `winget install Git.Git`
 
 ---
 
@@ -139,7 +117,6 @@
 
 - NetMan Startmenü: **Internet**
 - [Download-Link](https://www.google.com/intl/de_de/chrome/)
-- Winget Installation: `winget install Google.Chrome`
 
 ---
 
@@ -147,7 +124,7 @@
 
 - NetMan Startmenü: **Sowi**
 - [Download-Link](https://www.grafstat.de/bezugsquellen.htm)
-- Zusatzinformation: Ein Download-Link wird per Mail zugeschickt.
+- Zusatzinfo: Ein Download-Link wird per Mail zugeschickt.
 
 ---
 
@@ -155,7 +132,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.greenfoot.org/download)
-- Winget Installation: `winget install GreenfootTeam.Greenfoot`
 
 ---
 
@@ -163,11 +139,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://handbrake.fr/)
-- Winget Installation:
-  - `winget install Microsoft.DotNet.Runtime.6`
-  - `winget install Microsoft.DotNet.DesktopRuntime.6`
-  - `winget install Microsoft.DotNet.AspNetCore.6`
-  - `winget install HandBrake.HandBrake`
 
 ---
 
@@ -175,8 +146,7 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.jetbrains.com/idea/download/#section=windows)
-- Winget Installation: `winget install JetBrains.IntelliJIDEA.Community`
-- Zusatzinfo: Die "idea.properties" im bin-Verzeichnis muss so angepasst werden, dass alle Einträgen (`config`, `systems`, `plugins` und `log`) auskommentiert werden und überall das Verzeichnis auf "U:\Eigene Dateien" gesetzt wird!
+- Zusatzinfo: Die "idea.properties" im bin-Verzeichnis muss so angepasst werden, dass vor allen Einträgen (`config`, `systems`, `plugins` und `log`) der Hashtag entfernt wird und überall das Verzeichnis auf "U:\Eigene Dateien" gesetzt wird!
 
 ---
 
@@ -184,7 +154,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.irfanview.de/download-irfanview-64-bit-deutsche-version)
-- Winget Installation: `winget install IrfanSkiljan.IrfanView`
 - [Plugins](https://www.irfanview.de/download-irfanview-plugins-64-bit-deutsche-version)
 
 ---
@@ -200,8 +169,7 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://bell-sw.com/pages/downloads/#/java-8-lts)
-- Winget Installation: `winget install BellSoft.LibericaJDK.8.Full`
-- Zusatzinformations:
+- Zusatzinfos:
   - Bei *Package* die **Full JDK** wählen.
   - Nur die 64 Bit Version installieren.
 
@@ -211,8 +179,7 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://bell-sw.com/pages/downloads/#/java-17-lts)
-- Winget Installation: `winget install BellSoft.LibericaJDK.17.Full`
-- Zusatzinformations:
+- Zusatzinfos:
   - Bei *Package* die **Full JDK** wählen.
   - Nur die 64 Bit Version installieren.
 
@@ -222,7 +189,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://kdenlive.org/en/download/)
-- Winget Installation: `winget install KDE.Kdenlive`
 
 ---
 
@@ -230,7 +196,6 @@
 
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://keepassxc.org/download#windows)
-- Winget Installation: `winget install KeePassXCTeam.KeePassXC`
 
 ---
 
@@ -238,7 +203,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://krita.org/en/)
-- Winget Installation: `winget install KDE.Krita`
 
 ---
 
@@ -246,7 +210,6 @@
 
 - NetMan Start-Startmenü: **Office**
 - [Download-Link](https://de.libreoffice.org/download/download/)
-- Winget Installation: `winget install TheDocumentFoundation.LibreOffice`
 
 ---
 
@@ -283,7 +246,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://github.com/logisim-evolution/logisim-evolution/releases/tag/v3.7.2)
-- Winget-Installation: `winget install logisim-evolution.logisim-evolution`
 
 ---
 
@@ -291,7 +253,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://github.com/marktext/marktext/releases/)
-- Winget Installation: `winget install MarkText.MarkText`
 
 ---
 
@@ -306,7 +267,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://mindplus.cc/download-en.html)
-- Winget Installation: `winget install DFRobot.Mind+`
 - Zusatzinfos:
   - .sb3-Dateien dürfen nicht bei Doppelklick mit dieser App verknüpft werden, sondern mit Scratch.
   - Die App startet mit chinesischer Lokalisierung. Bitte ändern und testen.
@@ -317,7 +277,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://musescore.org/en)
-- Winget Installation: `winget install Musescore.Musescore`
 
 ---
 
@@ -325,7 +284,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://notepad-plus-plus.org/downloads/)
-- Winget Installation: `winget install Notepad++.Notepad++`
 
 ---
 
@@ -333,7 +291,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://obsproject.com/de)
-- Winget Installation: `winget install OBSProject.OBSStudio`
 
 ---
 
@@ -341,7 +298,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://obsidian.md/)
-- Winget Installation: `winget install Obsidian.Obsidian`
 
 ---
 
@@ -349,7 +305,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.openshot.org/download/)
-- Winget Installation: `winget install OpenShot.OpenShot`
 
 ---
 
@@ -357,7 +312,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://github.com/syvaidya/openstego/releases)
-- Winget Installation: `winget install syvaidya.openstego`
 
 ---
 
@@ -365,7 +319,6 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://pandoc.org/installing.html)
-- Winget Installation: `winget install JohnMacFarlane.Pandoc`
 
 ---
 
@@ -380,7 +333,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://pdftk-builder.de.uptodown.com/windows)
-- Winget Installation: `winget install AngusJohnson.PDFTKBuilder`
 
 ---
 
@@ -388,7 +340,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://presenter10.prowise.com/downloads)
-- Winget Installation: `winget install Prowise.ProwisePresenter`
 
 ---
 
@@ -396,7 +347,6 @@
 
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://www.prowise.com/en/download-prowise-reflect/)
-- Winget Installation `winget install ProwiseB.V.ProwiseReflect`
 
 ---
 
@@ -404,7 +354,7 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.jetbrains.com/de-de/pycharm/download/#section=windows)
-- Winget Installation: `winget install JetBrains.PyCharm.Community`
+- Zusatzinfo: Die "idea.properties" im bin-Verzeichnis muss so angepasst werden, dass vor allen Einträgen (`config`, `systems`, `plugins` und `log`) der Hashtag entfernt wird und überall das Verzeichnis auf "U:\Eigene Dateien" gesetzt wird!
 
 ---
 
@@ -412,7 +362,6 @@
 
 - NetMan Startmenü: **kein Eintrag**
 - [Download-Link](https://www.python.org/downloads/)
-- Winget Installation: `winget install Python.Python.3.10`
 
 ---
 
@@ -420,7 +369,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://gluonhq.com/products/scene-builder/#download)
-- Winget installation: `winget install Gluon.SceneBuilder.18`
 
 ---
 
@@ -428,7 +376,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://scratch.mit.edu/download)
-- Winget Installation: `winget install MITMediaLab.Scratch.3`
 
 ---
 
@@ -436,7 +383,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.shotcut.org/download/)
-- Winget Installation: `winget install Meltytech.Shotcut`
 
 ---
 
@@ -444,7 +390,7 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://sketchometry.org/en/download/index.html)
-- Zusatzinformations: Zwei mögliche Installationen:
+- Zusatzinfos: Zwei mögliche Installationen:
   - Nur die URL verlinken: [https://start.sketchometry.org](https://start.sketchometry.org)
   - Die USB-Stick Version nehmen (unten auf der Webseite).
 
@@ -454,7 +400,7 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://www.smarttech.com/en/products/education-software/smart-learning-suite/download)
-- Zusatzinformation: Nur installieren auf Boards und Lehrer-PCs
+- Zusatzinfo: Nur installieren auf Boards und Lehrer-PCs
 
 ---
 
@@ -470,7 +416,7 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://github.com/kekru/struktogrammeditor) (siehe unten auf GitHub-Seite: "Download via Jitpack")
-- Zusatzinformations:
+- Zusatzinfos:
   - Nach Download der letzten Version die heruntergeladene Datei umbenennen in `struktogrammeditor.jar`.
   - Bei vorhandener Java-Installation wird die jar-Datei so gestartet: `java -jar struktogrammeditor.jar`
   - [Webseite](https://whiledo.de/index.php?p=struktogrammeditor)
@@ -489,7 +435,6 @@
 
 - NetMan Startmenü: **Office**
 - [Download-Link](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
-- Winget Installation: `winget install SumatraPDF.SumatraPDF`
 
 ---
 
@@ -497,7 +442,6 @@
 
 - NetMan Startmenü: **Mathe**
 - [Download-Link](https://education.ti.com/de/software/details/en/36be84f974e940c78502aa47492887ab/ti-nspirecxcas_pc_full)
-- Winget Installation: `winget install TexasInstruments.TI-Nspire.CXStudent`
 
 ---
 
@@ -512,7 +456,6 @@
 
 - NetMan Startmenü: **Zubehör**
 - [Download-Link](https://www.veracrypt.fr/en/Downloads.html)
-- Winget Installation: `winget install IDRIX.VeraCrypt`
 - Zusatzinfo: Die App startet zwar bei Schüleraccounts, aber der Laufwerksbuchstabe des gemounteten Volumes kann nicht angeklickt werden.
 
 ---
@@ -522,7 +465,6 @@
 - NetMan Startmenü: **Physik**
 - [Download-Link](https://github.com/avosskuehler/viana/releases)
 - [Webseite](http://www.viananet.de/downloads)
-- Winget Installation: `winget install avosskuehler.viana`
 
 ---
 
@@ -530,7 +472,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://code.visualstudio.com/docs/?dv=win)
-- Winget Installation: `winget install Microsoft.VisualStudioCode`
 
 ---
 
@@ -538,7 +479,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.videolan.org/vlc/)
-- Winget Installation: `winget install VideoLAN.VLC`
 
 ---
 
@@ -546,7 +486,9 @@
 
 - NetMan Startmenü: **Musik**
 - [Download-Link](https://www.tracktion.com/products/waveform-free)
-- Zusatzinformations: Download nur möglich über Registrierung.
+- Zusatzinfos:
+  - Download nur möglich über Registrierung.
+  - Registrierungsdaten sind bekannt.
 
 ---
 
@@ -554,7 +496,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.xnview.com/de/xnview/#downloads)
-- Winget Installation: `winget install XnSoft.XnView.Classic`
 
 ---
 
@@ -562,7 +503,6 @@
 
 - NetMan Startmenü: **Medien**
 - [Download-Link](https://www.xnview.com/de/xnviewmp/)
-- Winget Installation: `winget install XnSoft.XnViewMP`
 
 ---
 
@@ -570,8 +510,6 @@
 
 - NetMan Startmenü: **Informatik**
 - [Download-Link](https://www.yworks.com/products/yed/download#download)
-- Choco Installation: `choco install yed`
-- Scoop Installation: `scoop install yed`
 - Zusatzinfos:
   - Die NRW Symbole, die unter diesem [Download-Link](https://www.schulentwicklung.nrw.de/lehrplaene/upload/klp_SII/if/MaterialZABI/yED-NRW-Palette.zip) zu finden sind, müssen nach der Installation importiert werden. Dies erfolgt über: *Bearbeiten* -> *Palette verwalten* -> *Abschnitt importieren*.
   - Danach wird in `AppData\Roaming` ein Verzeichnis namens `yWorks\yED` angelegt, welches ins Image kopiert werden muss.
